@@ -7,12 +7,12 @@ import { HelloComponent } from './hello.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-
+import { AppRoutingModule } from './appRouting/app-routing.module';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, AppRoutingModule],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
