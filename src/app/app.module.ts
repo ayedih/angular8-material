@@ -10,7 +10,12 @@ import { AboutComponent } from './about/about.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
-
+import { MatToolbarModule,
+  MatIconModule,
+  MatCardModule,
+  MatButtonModule,
+  MatProgressSpinnerModule } from '@angular/material';
+  
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule, AppRoutingModule],
   declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent],
