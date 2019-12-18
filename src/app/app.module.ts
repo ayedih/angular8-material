@@ -8,11 +8,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 
-import { AppRoutingModule } from './app-routing.module';
+import { RoutModule } from './rout/rout.module';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, HttpClientModule, AppRoutingModule],
+  imports:      [ BrowserModule, FormsModule, HttpClientModule, RoutModule],
   declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent],
   bootstrap:    [ AppComponent ]
 })
